@@ -66,8 +66,8 @@ public class AccountService {
 		int number = rnd.nextInt(999999);
 		String verifyCode = String.format("%06d", number);
 
-		final String fromEmail = "minhlhtph18449@fpt.edu.vn";
-		final String password = "240101minh";
+		final String fromEmail = "email";
+		final String password = "pwd";
 
 		try {
 			// Thông số kết nối Smtp Server
